@@ -7,9 +7,6 @@ import { HttpModule }       from '@angular/http';
 // Modules
 import { AppRoutingModule }     from './app-routing.module';
 
-// Imports for loading & configuring the in-memory web api
-import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
-
 // Custom components
 import { AppComponent }         from './app.component';
 import { ThibaultComponent }         from './thibault.component';
