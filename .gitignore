@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+typings/
+nbproject/
+npm-debug.log
+.typingsrc
+app/*.js.map
+app/*.component.js
+app/*.module.js
