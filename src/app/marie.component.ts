@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
         <h1>{{title}}</h1>
         <h2>Forever Living Products</h2>
     `,
-    styleUrls:  [ './marie.component.css' ]
+    styleUrls:  [ './app.component.scss', './marie.component.css' ]
 })
 
 export class MarieComponent {

@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
         <h1>{{title}}</h1>
         <h2>Full-Stack developper</h2>
     `,
-    styleUrls:  [ './thibault.component.css' ]
+    styleUrls:  [ './app.component.scss', './thibault.component.css' ]
 })
 
 export class ThibaultComponent {

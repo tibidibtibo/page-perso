@@ -2,20 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'my-app',
-    template: `
-        <h1>{{title}}</h1>
-        <nav>
-            <a routerLink="/marie" routerLinkActive="active">Marie</a>
-            <a routerLink="/thibault" routerLinkActive="active">Thibault</a>
-        </nav>
-        <router-outlet></router-outlet>
-    `,
-    styleUrls:  [ './app.component.css' ]
+    templateUrl: './app.component.html',
+    styleUrls:  [ './app.component.scss' ]
 })
 
 export class AppComponent {
-    title = 'DE BOISSIEU';
+    title = 'de-boissieu.fr';
 }
-
-
-

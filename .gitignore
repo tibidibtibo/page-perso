@@ -7,3 +7,5 @@ npm-debug.log
 app/*.js.map
 app/*.component.js
 app/*.module.js
+dist/*
+.vscode/*
