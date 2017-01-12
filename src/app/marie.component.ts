@@ -12,6 +12,3 @@ import { Component } from '@angular/core';
 export class MarieComponent {
     title = 'Marie de Boissieu';
 }
-
-
-
