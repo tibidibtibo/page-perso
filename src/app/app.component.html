@@ -1,12 +1,26 @@
-<div class="container app-component-banner">
-    <div class="row">
-        <div class="col-md-2">
-            <img src="../public/logos/dB.svg" />
+<nav class="navbar navbar-default app-component-banner">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand app-component-banner-logo" routerLink="/home" routerLinkActive="active"><img src="../public/logos/dB.svg" /></a>
         </div>
-            <a class="col-md-2 app-component-tile" routerLink="/marie" routerLinkActive="active">Marie</a>
-            <a class="col-md-2 app-component-tile" routerLink="/thibault" routerLinkActive="active">Thibault</a>
+        <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="nav navbar-nav">
+                <li><a class="app-component-header-link" routerLink="/marie" routerLinkActive="active">Marie</a></li>
+                <li><a class="app-component-header-link" routerLink="/thibault" routerLinkActive="active">Thibault</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="app-component-header-link" href="mailto:contact@de-boissieu.fr">Contact</a></li>
+            </ul>
+        </div>
     </div>
-</div>
+</nav>
+
 <div class="container">
     <router-outlet></router-outlet>
 </div>

@@ -16,38 +16,19 @@ $chart-blue: #3299bb;
 
 .app-component-banner {
 
-  width: 100%;
-  margin: 0 0 0 0;
-  padding: 10px 10px 10px 10px;
-
   background: $chart-darkgray;
-  color: $chart-darkgray;
-  
-  img {
-    width: 100px;
-  }
 
-  .app-component-tile {
-    width: 200px;
-    height: 100px;
-    
-    padding-top: 35px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-
-    text-align: center;
-    border-left: 1px solid $chart-lightgray;
-
-    text-decoration: none;
-    font-size: 1.5em;
+  .app-component-header-link {
+    font-size: 1.3em;
     color: $chart-lightgray;
-
     &:hover {
         background-color:#e9e9e9;
         color: #424242;
     }
+  }
 
+  .app-component-banner-logo {
+    padding-top: 7px;
   }
 
 }
