@@ -2,10 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'thibault',
-    template: `
-        <h1>{{title}}</h1>
-        <h2>Full-Stack developper</h2>
-    `,
+    templateUrl: './thibault.component.html',
     styleUrls:  [ './app.component.scss', './thibault.component.css' ]
 })
 

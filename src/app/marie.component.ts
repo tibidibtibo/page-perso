@@ -2,10 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'marie',
-    template: `
-        <h1>{{title}}</h1>
-        <h2>Forever Living Products</h2>
-    `,
+    templateUrl: './marie.component.html',
     styleUrls:  [ './app.component.scss', './marie.component.css' ]
 })
 

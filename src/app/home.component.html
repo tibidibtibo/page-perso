@@ -2,7 +2,17 @@
     <h2>Bienvenue</h2>
     <p>Cette page est en cours de construction.</p>
     <div class="row home-tiles">
-        <div class="col-md-6 home-tile-marie"><p>Marie</p><img src="../public/logos/logo-forever.jpg" /></div>
-        <div class="col-md-6 home-tile-thibault"><p>Thibault</p><img src="../public/logos/computer.svg" /></div>
+        <div class="col-md-6 home-tile-marie">
+            <a class="app-component-header-link" routerLink="/marie" routerLinkActive="active">
+                <p>Marie de Boissieu <span class="badge">Forever Living Products</span></p>
+                <img src="../public/logos/logo-forever.jpg" />
+            </a>
+        </div>
+        <div class="col-md-6 home-tile-thibault">
+            <a class="app-component-header-link" routerLink="/thibault" routerLinkActive="active">
+                <p>Thibault de Boissieu <span class="badge">Développeur Full-Stack</span></p>
+                <img src="../public/logos/computer.svg" />
+            </a>
+        </div>
     </div>
 </div>

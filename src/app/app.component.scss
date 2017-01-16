@@ -28,7 +28,13 @@ $chart-blue: #3299bb;
   }
 
   .app-component-banner-logo {
-    padding-top: 8px;
+    padding-top: 10px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+      -webkit-opacity: 0.5;
+      -moz-opacity: 0.5;
+    }
   }
 
 }
