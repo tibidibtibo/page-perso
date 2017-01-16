@@ -2,7 +2,7 @@
   "name": "page-perso",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 8080",
+    "start": "webpack-dev-server --inline --progress --port 3000",
     "test": "karma start",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
   },
