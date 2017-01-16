@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
+    moduleId: module.id.toString(),
     selector: 'thibault',
     templateUrl: './thibault.component.html',
     styleUrls:  [ './app.component.scss', './thibault.component.css' ]

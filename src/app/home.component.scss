@@ -32,7 +32,7 @@ $chart-blue: #3299bb;
     }
     
     img {
-        width: 300px;
+        width: 400px;
     }
 
     .home-tile-marie {
@@ -43,4 +43,35 @@ $chart-blue: #3299bb;
         @extend .home-tile;
     }
 
+    .app-component-header-link {
+        display: inline-block;
+        width: 400px;
+        position: relative;
+    }
+
+    .app-component-header-text {
+        background: rgba(0,0,0,0.8);
+        color: white;
+        font-size: 3em;
+
+        cursor: pointer;
+        
+        display: table;
+
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        opacity: 0;
+
+        &:hover {
+            opacity: 1;
+            transition: 0.5s ease;
+            -webkit-transition: 0.5s ease;
+            -moz-transition: 0.5s ease;
+        }
+    }
 }
+

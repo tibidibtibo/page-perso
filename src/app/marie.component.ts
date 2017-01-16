@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
+    moduleId: module.id.toString(),
     selector: 'marie',
     templateUrl: './marie.component.html',
     styleUrls:  [ './app.component.scss', './marie.component.css' ]
