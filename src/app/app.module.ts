@@ -13,6 +13,8 @@ import { HomeComponent }        from './home.component';
 import { BackComponent }        from './back.component';
 import { ThibaultComponent }    from './thibault.component';
 import { MarieComponent }       from './marie.component';
+import { FooterComponent }       from './footer.component';
+import { HeaderComponent }       from './header.component';
 
 @NgModule({
     imports:    [   
@@ -25,6 +27,8 @@ import { MarieComponent }       from './marie.component';
                         AppComponent,
                         HomeComponent,
                         BackComponent,
+                        FooterComponent,
+                        HeaderComponent,
                         ThibaultComponent,
                         MarieComponent
                     ],

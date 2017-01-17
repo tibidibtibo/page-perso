@@ -1,3 +1,5 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+$bootstrap-path:  "~bootstrap-sass/assets/stylesheets/bootstrap";
 
 /* Fonts */
 $font-stack: Helvetica, Arial, sans-serif;
@@ -19,6 +21,7 @@ $chart-blue: #3299bb;
   background: $chart-darkgray;
 
   .app-component-header-link {
+    cursor: pointer;
     font-size: 1.3em;
     color: $chart-lightgray;
     &:hover {

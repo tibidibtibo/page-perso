@@ -9,3 +9,4 @@ import 'rxjs';
 
 import 'jquery';
 import 'bootstrap-loader';
+import 'bootstrap-sass';
