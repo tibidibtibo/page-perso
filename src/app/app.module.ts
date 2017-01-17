@@ -10,6 +10,7 @@ import { AppRoutingModule }     from './app-routing.module';
 // Custom components
 import { AppComponent }         from './app.component';
 import { HomeComponent }        from './home.component';
+import { BackComponent }        from './back.component';
 import { ThibaultComponent }    from './thibault.component';
 import { MarieComponent }       from './marie.component';
 
@@ -23,6 +24,7 @@ import { MarieComponent }       from './marie.component';
     declarations: [   
                         AppComponent,
                         HomeComponent,
+                        BackComponent,
                         ThibaultComponent,
                         MarieComponent
                     ],

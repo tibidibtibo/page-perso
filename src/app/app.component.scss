@@ -38,3 +38,18 @@ $chart-blue: #3299bb;
   }
 
 }
+
+.back-component {
+  
+  font-weight: bold;
+  
+  a {
+    text-decoration: none;
+    color: $chart-darkgray;
+
+    &:hover {
+      color: $chart-mediumgray;
+    }
+  }
+
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BackComponent } from './back.component';
 
 @Component({
     moduleId: module.id.toString(),
