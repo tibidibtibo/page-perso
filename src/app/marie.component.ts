@@ -5,7 +5,7 @@ import { BackComponent } from './back.component';
     moduleId: module.id.toString(),
     selector: 'marie',
     templateUrl: './marie.component.html',
-    styleUrls:  [ './app.component.scss', './marie.component.css' ]
+    styleUrls:  [ './app.component.scss', './marie.component.scss' ]
 })
 
 export class MarieComponent {

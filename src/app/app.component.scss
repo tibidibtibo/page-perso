@@ -1,5 +1,13 @@
-$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
-$bootstrap-path:  "~bootstrap-sass/assets/stylesheets/bootstrap";
+@font-face {
+    font-family: "glyphicons_halflingsregular";
+    font-style: normal;
+    src: url("assets/glyphicons-halflings-regular.eot") format("eot"),
+         url("assets/glyphicons-halflings-regular.woff2") format("woff2"),
+         url("assets/glyphicons-halflings-regular.woff") format("woff");
+}
+
+/* Size */
+$mobile-width: 767px;
 
 /* Fonts */
 $font-stack: Helvetica, Arial, sans-serif;
@@ -25,22 +33,57 @@ $chart-blue: #3299bb;
     font-size: 1.3em;
     color: $chart-lightgray;
     &:hover {
-        background-color:#e9e9e9;
-        color: #424242;
+        background-color:$chart-lightgray;
+        color: $chart-darkgray;
     }
   }
 
   .app-component-banner-logo {
     padding-top: 10px;
     cursor: pointer;
+    transition: 0.1s ease;
+    -webkit-transition: 0.1s ease;
+    -moz-transition: 0.1s ease;
     &:hover {
       opacity: 0.5;
       -webkit-opacity: 0.5;
       -moz-opacity: 0.5;
+      transition: 0.1s ease;
+      -webkit-transition: 0.1s ease;
+      -moz-transition: 0.1s ease;
     }
   }
 
 }
+
+.app-component-footer {
+
+   background: $chart-lightgray;
+   color: $chart-darkgray;
+
+  .app-component-footer-link {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.1em;
+    &:hover {
+        background-color:$chart-darkgray;
+        color: $chart-lightgray;
+    }
+  }
+
+  .app-component-footer-credits {
+    visibility: visible;
+    @media screen and (max-width: $mobile-width) {
+        visibility: hidden;
+    }
+
+    p {
+      font-size: 0.8em;
+    }
+  }
+
+}
+
 
 .back-component {
   
@@ -55,4 +98,18 @@ $chart-blue: #3299bb;
     }
   }
 
+}
+
+// Utils
+.img-transparence {
+  opacity: 1;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  &:hover {
+    opacity: 0.7;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+  }
 }

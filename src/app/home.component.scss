@@ -10,8 +10,6 @@ $mobile-width: 767px;
 
 .home-tiles {
 
-    cursor: pointer;
-
     text-align: center;
 
     a {
@@ -28,8 +26,16 @@ $mobile-width: 767px;
     }
 
     .app-component-header-link {
+        cursor: pointer;
         display: inline-block;
         position: relative;
+    }
+
+    .app-component-header-description {
+        visibility: hidden;
+        @media screen and (max-width: $mobile-width) {
+            visibility: visible;
+        }
     }
 
     .app-component-header-text {
@@ -52,12 +58,15 @@ $mobile-width: 767px;
         color: white;
         font-size: 3em;
         opacity: 0;
+        transition: 0.1s ease;
+        -webkit-transition: 0.1s ease;
+        -moz-transition: 0.1s ease;
 
         &:hover {
             opacity: 1;
-            transition: 0.5s ease;
-            -webkit-transition: 0.5s ease;
-            -moz-transition: 0.5s ease;
+            transition: 0.3s ease;
+            -webkit-transition: 0.3s ease;
+            -moz-transition: 0.3s ease;
         }
 
     }

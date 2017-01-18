@@ -25,20 +25,29 @@ module.exports = {
         loader: 'html'
       },
       {
-        test: /\.(png|jpe?g|gif|svg|ico)$/,
+        test: /\.(png|jpe?g|gif|ico)$/,
         loader: 'file?name=assets/[name].[hash].[ext]'
       },
       {
-        test: /\.(woff|woff2)?(\?v=\d+.\d+.\d+)?$/, 
-        loader: 'url-loader?limit=8192'
+        test: /\.woff(2)?(\?v=\d+\.\d+\.\d+)?$/, 
+        loader: "url?limit=10000&mimetype=application/font-woff&name=assets/[name].[hash].[ext]" 
       },
       {
-        test: /\.(eot|ttf)$/, 
-        loader: 'file-loader'},
+        test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, 
+        loader: "url?limit=10000&mimetype=application/octet-stream&name=assets/[name].[hash].[ext]" 
+      },
+      {
+        test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, 
+        loader: 'file?name=assets/[name].[hash].[ext]' 
+      },
+      {
+        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, 
+        loaders: ['url?limit=10000&mimetype=image/svg+xml&name=assets/[name].[hash].[ext]' ]
+      },
       {
         test: /\.css$/,
         exclude: helpers.root('src', 'app'),
-        loader: ExtractTextPlugin.extract('style', 'css?sourceMap')
+        loader: ExtractTextPlugin.extract('style', 'css?sourceMap', 'resolve-url-loader')
       },
       {
         test: /\.css$/,
@@ -48,7 +57,7 @@ module.exports = {
       {
         test: /\.scss$/,
         exclude: /node_modules/,
-        loaders: ['raw-loader', 'sass-loader'], // sass-loader not scss-loader
+        loaders: ['raw-loader', 'resolve-url-loader', 'sass-loader?sourceMap'],
       },
       {  
         test: /bootstrap\/dist\/js\/umd\//, 
