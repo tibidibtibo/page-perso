@@ -75,6 +75,11 @@ $chart-blue: #3299bb;
     visibility: visible;
     @media screen and (max-width: $mobile-width) {
         visibility: hidden;
+        height: 0px;
+        width: 0px;
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
     }
 
     p {
