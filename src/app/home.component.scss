@@ -39,6 +39,7 @@ $mobile-width: 767px;
     }
 
     .app-component-header-text {
+
         @media screen and (max-width: $mobile-width) {
             height: 200px;
             width: 200px;
@@ -47,16 +48,17 @@ $mobile-width: 767px;
 
         height: 400px;
         width: 400px;
+
         display: table;
         position: absolute;
-        left: 0;
-        top: 0;
+        left: 0px;
+        top: 0px;
         
         cursor: pointer;
         
         background: rgba(0,0,0,0.8);
         color: white;
-        font-size: 3em;
+        font-size: 2em;
         opacity: 0;
         transition: 0.1s ease;
         -webkit-transition: 0.1s ease;

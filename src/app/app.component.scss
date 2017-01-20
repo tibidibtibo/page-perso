@@ -54,6 +54,13 @@ $chart-blue: #3299bb;
     width: 30px;
     height: 30px;
     background-image: url('../public/logos/dB.svg');
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    transition: 0.1s ease;
+    -webkit-transition: 0.1s ease;
+    -moz-transition: 0.1s ease;
+
     &:hover {
       background-image: url('../public/logos/home.svg');
       opacity: 0.5;
@@ -68,17 +75,6 @@ $chart-blue: #3299bb;
   .app-component-banner-logo {
     padding-top: 10px;
     cursor: pointer;
-    transition: 0.1s ease;
-    -webkit-transition: 0.1s ease;
-    -moz-transition: 0.1s ease;
-    &:hover {
-      opacity: 0.5;
-      -webkit-opacity: 0.5;
-      -moz-opacity: 0.5;
-      transition: 0.1s ease;
-      -webkit-transition: 0.1s ease;
-      -moz-transition: 0.1s ease;
-    }
   }
 
 }
