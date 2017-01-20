@@ -56,9 +56,14 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        exclude: /node_modules/,
-        loaders: ['raw-loader', 'resolve-url-loader', 'sass-loader?sourceMap'],
+        loaders: ['to-string-loader', 'css-loader', 'sass-loader'],
+        exclude: [helpers.root('src', 'styles')]
       },
+      // {
+      //   test: /\.scss$/,
+      //   exclude: /node_modules/,
+      //   loaders: ['raw-loader', 'resolve-url-loader', 'sass-loader?sourceMap'],
+      // },
       {  
         test: /bootstrap\/dist\/js\/umd\//, 
         loader: 'imports?jQuery=jquery' 

@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:date>03-AUG-2006</dc:date>
         <dc:creator>
           <cc:Agent>
@@ -69,10 +69,10 @@
      showgrid="false"
      height="660px"
      inkscape:zoom="5.6568543"
-     inkscape:cx="4.0067743"
+     inkscape:cx="-26.398817"
      inkscape:cy="18.782689"
-     inkscape:window-x="366"
-     inkscape:window-y="117"
+     inkscape:window-x="296"
+     inkscape:window-y="102"
      inkscape:current-layer="layer1"
      inkscape:window-maximized="0" />
   <desc
@@ -224,14 +224,14 @@
      inkscape:label="Contour final"
      transform="translate(0,-630)">
     <rect
-       style="fill:#424242;fill-opacity:1;stroke:none"
+       style="fill:#e9e9e9;fill-opacity:1;stroke:none"
        id="rect3145"
        width="30"
        height="30"
        x="0"
        y="630" />
     <path
-       style="fill:#e9e9e9;stroke:#e9e9e9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       style="fill:#424242;stroke:#e9e9e9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        d="M 4,15 15,5 26,15 26,27 4,27 z"
        id="path4188"
        inkscape:connector-curvature="0"

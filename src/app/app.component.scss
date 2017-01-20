@@ -1,9 +1,9 @@
 @font-face {
-    font-family: "glyphicons_halflingsregular";
+    font-family: "glyphicons";
     font-style: normal;
-    src: url("assets/glyphicons-halflings-regular.eot") format("eot"),
-         url("assets/glyphicons-halflings-regular.woff2") format("woff2"),
-         url("assets/glyphicons-halflings-regular.woff") format("woff");
+    src: url("../public/fonts/glyphicons-halflings-regular.eot") format("eot"),
+         url("../public/fonts/glyphicons-halflings-regular.woff2") format("woff2"),
+         url("../public/fonts/glyphicons-halflings-regular.woff") format("woff");
 }
 
 /* Size */
@@ -11,6 +11,7 @@ $mobile-width: 767px;
 
 /* Fonts */
 $font-stack: Helvetica, Arial, sans-serif;
+$font-icons: glyphicons;
 
 /* Colors */
 $chart-orange: #ff9900;
@@ -24,6 +25,10 @@ $chart-blue: #3299bb;
   font-family: $font-stack;
 }
 
+.app-icon {
+  font-family: $font-icons;
+}
+
 .app-component-banner {
 
   background: $chart-darkgray;
@@ -35,6 +40,28 @@ $chart-blue: #3299bb;
     &:hover {
         background-color:$chart-lightgray;
         color: $chart-darkgray;
+    }
+  }
+
+  .app-component-banner-collapsed {
+    color: $chart-lightgray;
+    &:hover {
+        color: $chart-darkgray;
+    }
+  }
+
+  .app-component-banner-logo-img {
+    width: 30px;
+    height: 30px;
+    background-image: url('../public/logos/dB.svg');
+    &:hover {
+      background-image: url('../public/logos/home.svg');
+      opacity: 0.5;
+      -webkit-opacity: 0.5;
+      -moz-opacity: 0.5;
+      transition: 0.1s ease;
+      -webkit-transition: 0.1s ease;
+      -moz-transition: 0.1s ease;
     }
   }
 
@@ -65,6 +92,7 @@ $chart-blue: #3299bb;
     cursor: pointer;
     text-decoration: none;
     font-size: 1.1em;
+    color: $chart-darkgray;
     &:hover {
         background-color:$chart-darkgray;
         color: $chart-lightgray;

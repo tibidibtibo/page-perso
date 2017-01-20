@@ -1,14 +1,12 @@
 <nav class="navbar navbar-default app-component-banner">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+            <button type="button" class="navbar-toggle collapsed app-component-banner-collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+                <span class="app-icon glyphicon glyphicon-menu-hamburger"></span>
             </button>
             <a class="navbar-brand app-component-banner-logo" routerLink="/home" routerLinkActive="active" title="Accueil">
-                <img src="../public/logos/dB.svg" />
+                <!--<img src="../public/logos/dB.svg" />-->
+                <div class="app-component-banner-logo-img"></div>
             </a>
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
@@ -17,7 +15,9 @@
                 <li><a class="app-component-header-link" routerLink="/thibault" routerLinkActive="active">Thibault</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="app-component-header-link" href="mailto:contact@de-boissieu.fr">Contact</a></li>
+                <li><a class="app-component-header-link" href="mailto:contact@de-boissieu.fr">
+                    <span class="app-icon glyphicon glyphicon-envelope"></span>
+                </a></li>
             </ul>
         </div>
     </div>
