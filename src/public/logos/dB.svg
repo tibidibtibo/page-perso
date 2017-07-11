@@ -13,7 +13,7 @@
    version="1.0"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="dB.svg"
    inkscape:export-filename="/Users/olivier/Desktop/Blason Rouge/Blason_Vide_3D.png"
    inkscape:export-xdpi="144"
@@ -68,12 +68,12 @@
      id="base"
      showgrid="false"
      height="660px"
-     inkscape:zoom="11.313709"
-     inkscape:cx="-2.0875601"
-     inkscape:cy="12.261817"
-     inkscape:window-x="235"
-     inkscape:window-y="79"
-     inkscape:current-layer="g4050"
+     inkscape:zoom="16"
+     inkscape:cx="14.081471"
+     inkscape:cy="18.415188"
+     inkscape:window-x="119"
+     inkscape:window-y="129"
+     inkscape:current-layer="layer1"
      inkscape:window-maximized="0" />
   <desc
      id="desc4">Flag of Canton of Valais (Wallis)</desc>
@@ -236,7 +236,7 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccccc"
          d="m 15.071529,658.49638 c 0,0 12.312022,-4.63281 12.312022,-16.40663 0,-11.77381 0,-10.66429 0,-10.66429 l -24.6240429,0 0,10.66429 c 0,11.77382 12.3120209,16.40663 12.3120209,16.40663 z"
-         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.92316246;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.92316246;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
          id="path2855" />
       <path
          inkscape:connector-curvature="0"
