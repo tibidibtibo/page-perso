@@ -9,12 +9,13 @@ import { AppRoutingModule }     from './app-routing.module';
 
 // Custom components
 import { AppComponent }         from './app.component';
-import { HomeComponent }        from './home.component';
-import { BackComponent }        from './back.component';
-import { ThibaultComponent }    from './thibault.component';
-import { MarieComponent }       from './marie.component';
-import { FooterComponent }       from './footer.component';
-import { HeaderComponent }       from './header.component';
+import { HomeComponent }        from './components/home/home.component';
+import { BackComponent }        from './components/back/back.component';
+import { TpShuffleComponent }   from './components/tp-shuffle/tp-shuffle.component';
+import { ThibaultComponent }    from './components/thibault/thibault.component';
+import { MarieComponent }       from './components/marie/marie.component';
+import { FooterComponent }       from './components/footer/footer.component';
+import { HeaderComponent }       from './components/header/header.component';
 
 @NgModule({
     imports:    [   
@@ -29,6 +30,7 @@ import { HeaderComponent }       from './header.component';
                         BackComponent,
                         FooterComponent,
                         HeaderComponent,
+                        TpShuffleComponent,
                         ThibaultComponent,
                         MarieComponent
                     ],

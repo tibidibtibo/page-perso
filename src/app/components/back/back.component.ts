@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
             <a routerLink="/home" routerLinkActive="active">← Accueil</a>
         </div>
     `,
-    styleUrls:  [ './app.component.scss' ]
+    styleUrls:  [ '../../app.component.scss' ]
 })
 
 export class BackComponent {

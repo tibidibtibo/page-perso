@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { BackComponent } from './back.component';
+import { BackComponent } from '../back/back.component';
 
 @Component({
     moduleId: module.id.toString(),
     selector: 'marie',
     templateUrl: './marie.component.html',
-    styleUrls:  [ './app.component.scss', './marie.component.scss' ]
+    styleUrls:  [ '../../app.component.scss', './marie.component.scss' ]
 })
 
 export class MarieComponent {
