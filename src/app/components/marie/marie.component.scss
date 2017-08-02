@@ -1,4 +1,29 @@
+$bootstrap-border-color: #ddd;
 
-.marie-main-img {
+.marie-page {
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.marie-card {
+    text-align: center;
+    border: 1px solid $bootstrap-border-color;
+    border-radius: 3px;
+}
+
+.marie-logo {
+    text-align: right;
+}
+
+.marie-forever-img {
+    height: 100px;
+}
+
+.marie-cream-img {
+    width: 200px;
+}
+
+.marie-photo-id {
+    padding-top: 10px;
     width: 200px;
 }
