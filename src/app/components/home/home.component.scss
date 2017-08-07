@@ -4,6 +4,7 @@ $chart-darkgray: #424242;
 $chart-lightgray: #e9e9e9;
 $chart-mediumgray: #bcbcbc;
 $chart-blue: #3299bb;
+$chart-white: #FFF;
 
 /* Size */
 $mobile-width: 767px;
@@ -26,6 +27,9 @@ $mobile-width: 767px;
     }
 
     .app-component-header-link {
+        border-radius: 1px;
+        border: 2px solid $chart-mediumgray;
+        background-color: $chart-white;
         cursor: pointer;
         display: inline-block;
         position: relative;
@@ -57,7 +61,7 @@ $mobile-width: 767px;
         cursor: pointer;
         
         background: rgba(0,0,0,0.8);
-        color: white;
+        color: $chart-white;
         font-size: 2em;
         opacity: 0;
         transition: 0.1s ease;
@@ -72,5 +76,6 @@ $mobile-width: 767px;
         }
 
     }
+
 }
 
