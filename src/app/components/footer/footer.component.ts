@@ -4,12 +4,12 @@ import { Component } from '@angular/core';
     moduleId: module.id.toString(),
     selector: 'footer',
     templateUrl:    './footer.component.html',
-    styleUrls:  [ '../../app.component.scss' ]
+    styleUrls:  [ '../../page-perso.component.scss' ]
 })
 
 export class FooterComponent {
 
     toTop(): void {
-        window.scrollTo(0,0);
+        window.scrollTo(0, 0);
     }
 }

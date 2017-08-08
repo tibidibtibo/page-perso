@@ -10,7 +10,8 @@ app/*.module.js
 dist/*
 .vscode/*
 logs
-*.log
+**/*.log
+**/*npm-debug.log*
 
 pids
 *.pid

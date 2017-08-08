@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
     moduleId: module.id.toString(),
     selector: 'header',
     templateUrl:    './header.component.html',
-    styleUrls:  [ '../../app.component.scss' ]
+    styleUrls:  [ '../../page-perso.component.scss' ]
 })
 
 export class HeaderComponent {
