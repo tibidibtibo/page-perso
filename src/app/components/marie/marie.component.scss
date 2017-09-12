@@ -15,11 +15,17 @@ $bootstrap-border-color: #ddd;
     text-align: right;
 }
 
+.marie-img {
+    padding-top: 5px;
+}
+
 .marie-forever-img {
+    @extend .marie-img;
     height: 100px;
 }
 
 .marie-cream-img {
+    @extend .marie-img;
     width: 200px;
 }
 
